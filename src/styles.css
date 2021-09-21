@@ -1,0 +1,94 @@
+.app {
+    font-family: Roboto, serif;
+    width: 970px;
+    margin: auto;
+}
+.logo img{
+    width: 100px;
+}
+.menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul li {
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.menu > ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+}
+.checkout img {
+    width: 24px;
+}
+.checkout {
+    position: relative;
+}
+
+.checkout .counter {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background-color: lightgreen;
+    color: green;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 12px;
+    text-align: center;
+    font-size: small;
+
+}
+.logout {
+    color: gray;
+    text-decoration: none;
+    font-size: small;
+   margin: 0 15px 0 30px;
+
+}
+
+.card-name{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.card-image{
+    height: 230px;
+
+}
+.card-image{
+    text-align: center;
+}
+.card-price{
+    font-size: 24px;
+    padding: 15px 0;
+}
+.card-info{
+    padding: 15px;
+}
+.card-info button{
+    width: 100%;
+}
+.card{
+    width: 230px;
+    margin-bottom: 30px;
+    border: 1px solid #f1f1f1;
+}
+.btn{
+    color: #fff;
+    background-color: royalblue;
+}
+.added {
+    background-color: dodgerblue;
+}
+.btn:hover{
+    color: white;
+}
+
